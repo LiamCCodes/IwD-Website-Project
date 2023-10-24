@@ -3,8 +3,8 @@
 h1 {
 	font-size: 2em;
 	display: flex;
-	padding-left: 0.5;
-	padding-right: 0.5;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	justify-content: center;
 	align-items: center;
 	min-width: 1000px;
@@ -35,13 +35,12 @@ img {
 		align-items: center;
 		max-height: 100px;
 		min-width: 100px;
-		float: center;
     }
 table {
 		margin: auto;
 		padding-right: 10em;
 		width: 200px;
-		border-spacing: 1;
+		border-spacing: 1em;
 		border-collapse: collapse;
 	  }
 td, th {
@@ -85,11 +84,22 @@ a:hover { text-decoration: none;
 a:active { text-decoration: none;
 		  color: #000000;
 		 }
-#heroParagraph {
+#heroParagraph1 {
 				 font-size: 1em;
 				 display: flex;
-				 padding-left: 0.5;
-				 padding-right: 0.5;
+				 padding-left: 0.5em;
+				 padding-right: 0.5em;
+				 justify-content: center;
+				 align-items: center;
+				 min-width: 1000px;
+				 max-width: 2000px;
+				 flex-wrap: wrap;
+			   }
+#heroParagraph2 {
+				 font-size: 1em;
+				 display: flex;
+				 padding-left: 0.5em;
+				 padding-right: 0.5em;
 				 justify-content: center;
 				 align-items: center;
 				 min-width: 1000px;
@@ -104,8 +114,8 @@ header {
 			 background-color: #B5997D;
 		 }
 hr {
-	padding-left: 0.5;
-	padding-right: 0.5;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	height: 2px;
 	color: #D4BDA7;
 	display: flex;
@@ -114,7 +124,43 @@ hr {
 	min-width: 100px;
 	max-width: 2100px;
    }
-#substanceLine {
+#substanceLine1 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine2 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine3 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine4 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine5 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine6 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine7 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine8 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine9 {
+				float: left;
+				padding-right: 15em;
+			   }
+#substanceLine10 {
 				float: left;
 				padding-right: 15em;
 			   }
@@ -135,7 +181,6 @@ footer {
 							nav {
 									display: flex;
 									position: sticky;
-									min-width: px;
 								}
 							nav ul {
 										display: flex;
