@@ -106,6 +106,16 @@ a:active { text-decoration: none;
 				 max-width: 2000px;
 				 flex-wrap: wrap;
 			   }
+#substanceTable {
+				margin-right: 8em;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				table-layout: fixed;
+			   }
+#substanceTable table {
+						min-width: 350px;
+					  }
 header {
 			 font-family: Georgia, "Times new Roman", serif;
 			 display: flex;
@@ -171,7 +181,12 @@ footer {
 		  align-items: center;
 		  background-color: #B5997D;
 	   }
-@media (max-width: 500px) {
+@media (min-width: 601px) {
+							body {
+									overflow-x: hidden;
+							     }
+						  }
+@media (max-width: 600px) {
 							body {
 									overflow-x: hidden;
 								 }
@@ -188,6 +203,6 @@ footer {
 										flex-wrap: nowrap;
 								   }
 							#wrapper {
-										margin-right: 5em;
+										padding-right: 5em;
 									 }
 						  }
